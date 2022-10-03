@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Территория жизни</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+
+<div class="wrapper wrapper-registration">
+  <div class="wrapper-image"><img src="img/image1.jpg" alt=""></div>
+  <div class="wrapper-content">
+    <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+    <div class="wrapper-content-info">
+      <h1>Регистрация</h1>
+
+      <div class="box-text">
+        <p>Уже зарегистрированы? <a href="index.html" class="link-accent d-inline">Войти</a></p>
+      </div>
+      <form method="post" class="form">
+        <label>
+          <input type="text" placeholder="Введите Ваш уникальный ID " name="id" required>
+          <button type="button" class="btn-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Подсказка вверху">
+            ?
+          </button>
+        </label>
+        <label>
+          <input type="text" placeholder="Номер телефона" name="phone" required>
+        </label>
+        <label>
+          <input type="text" placeholder="Пароль" name="password" required>
+        </label>
+        
+        <button type="submit" class="btn btn-accent">
+          <span class="btn-text">продолжить</span>
+          <span class="btn-icon"><img src="img/arrow-right-btn.svg" alt=""></span>
+        </button>
+      </form>
+
+      <a href="#" class="link-accent link-help" data-bs-toggle="modal" data-bs-target="#codeModal">Нужна помощь?</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Завершение регистрации</h5>
+<!--        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label><input type="text" placeholder="Введите код из SMS" required name="code"></label>
+          <button type="submit" class="btn btn-accent">зарегистрироваться</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+
+</html>

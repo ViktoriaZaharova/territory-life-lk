@@ -1,0 +1,83 @@
+/*==========  section entrance ==========*/
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+
+.wrapper-content {
+  max-width: 797px;
+  width: 100%;
+  padding: 124px 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .wrapper-content-info {
+    margin: auto 0; }
+  .wrapper-content .form {
+    max-width: 511px; }
+    .wrapper-content .form button {
+      margin: 0 0 0 auto; }
+  .wrapper-content .box-text {
+    margin: 0 0 34px; }
+
+.wrapper-image {
+  width: calc(100% - 797px);
+  position: relative; }
+  .wrapper-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .wrapper-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/decor.svg") no-repeat center;
+      background-size: cover; }
+
+.link-accent {
+  color: #35AB52; }
+  .link-accent:hover {
+    color: #000; }
+
+.link-help {
+  margin: 165px 0 0; }
+
+.wrapper-registration h1 {
+  margin: 0 0 14px; }
+
+/*==========  section entrance end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
