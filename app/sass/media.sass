@@ -3,17 +3,58 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
+@media only screen and (max-width: 1570px)
+  .menu
+    font-size: 20px
+
+    li
+      margin: 0 30px 0 0
+
+  .objects-card
+    &__head
+      padding: 20px
+    &__body
+      padding: 20px
+
+  .address
+    font-size: 14px
+
+  .btn-add-objects
+    padding: 30px
+    font-size: 20px
+    &__icon
+      max-width: 50px
+
+  .btn-group .btn
+    font-size: 14px
+    padding: 9px 10px
+
+@media only screen and (max-width: 1400px)
+  .menu
+    font-size: 18px
+    margin: 0 auto
+
+    li
+      margin: 0 20px 0 0
+
+  .phone
+    font-size: 20px
+
+@media only screen and (max-width: 1200px)
   .wrapper-content
     width: 100%
     max-width: 100%
     padding: 40px
+
     .logo
       margin: 0 auto
+
     h1
       text-align: center
+
     .form
       margin: 0 auto
+
     .box-text
       text-align: center
 
@@ -23,28 +64,66 @@
   .wrapper-image
     display: none
 
+  header
+    padding: 20px 0
+    margin: 0 0 40px
 
+    .menu
+      display: none
+
+    .logo
+      margin: 0 auto 0 0
+
+  .btn-burger
+    display: flex
+
+  .page
+    margin: 0 0 50px
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px)
-	/**/
+@media only screen and (max-width: 992px)
+  /**/
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
-	h1, h2
+@media only screen and (max-width: 768px)
+  h1, h2
     font-size: 30px
     margin: 0 0 30px
 
+  header
+    .phone
+      margin: 0 auto
+
+  .phone
+    font-size: 18px
+
+  .list-social
+    li
+      margin: 0 15px 0 0
+
+  .logo
+    max-width: 180px
+
+  .list-sorting
+    margin: 0 0 0 30px
+
+  .order-line
+    padding: 20px
+    margin: 0 0 20px
+    font-size: 16px
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 576px)
+@media only screen and (max-width: 576px)
   .wrapper-content
     padding: 30px
+
     .logo
       margin: 0 auto 20px
+
     .form
       max-width: 320px
+
       button
         margin: 0 auto
 
@@ -64,14 +143,71 @@
   .modal-title
     font-size: 22px
 
+  header
+    margin: 0 0 20px
+    padding: 15px 0
+    .logo
+      margin: 0
+    .list-social
+      display: none
 
-@media only screen and (max-width : 360px)
+  .btn-burger
+    margin: 0
+
+  .sorting-wrapper
+    width: 100%
+    margin: 10px 0 0
+
+  .order-line
+    &__number, &__date
+      width: 50%
+    &__date
+      text-align: right
+    &__title
+      width: 100%
+      margin: 10px 0
+    &__status
+      width: 100%
+
+  .documents-link
+    padding: 15px
+
+  .documents-name
+    margin: 0 auto 0 20px
+
+  .btn-group
+    flex-direction: column
+    align-items: flex-start
+    .btn
+      margin: 0 0 10px
+      width: 100%
+      &:last-child
+        margin: 0
+
+@media only screen and (max-width: 420px)
+  header
+    margin: 0 0 30px
+    .logo
+      max-width: 120px
+    .phone
+      font-size: 15px
+
+  .list-sorting
+    width: 100%
+    margin: 10px 0 0
+
+  .objects-card
+    &__head
+      flex-wrap: wrap
+
+  .address
+    width: 100%
+    margin: 10px 0 0
+
+@media only screen and (max-width: 360px)
   .wrapper-content
     .form
       max-width: 280px
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
-	/**/
 

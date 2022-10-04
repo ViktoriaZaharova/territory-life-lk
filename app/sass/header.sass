@@ -1,11 +1,100 @@
 @import "vars"
 
+/*==========  section header ==========*/
+header
+  padding: 34px 0
+  margin: 0 0 60px
+
+.list-social
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  li
+    margin: 0 20px 0 0
+    &:last-child
+      margin: 0
+
+.phone
+  margin: 0 47px 0 0
+  color: $accent
+  font-size: 24px
+  &:hover
+    color: $hover
+
+
+.menu
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 0 auto 0 102px
+  font-size: 24px
+  li
+    margin: 0 63px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #004632
+      &:hover
+        color: $accent
+
+.btn-burger
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  cursor: pointer
+  width: 20px
+  height: 16px
+  margin: 0 0 0 20px
+  span
+    display: block
+    width: 100%
+    height: 2px
+    border-radius: 3px
+    background: #004632
+/*==========  section header end ==========*/
+
+
+
 /*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-/*==========  section  ==========*/
+.mobile-menu
+  display: none
+  position: fixed
+  max-width: 280px
+  width: 100%
+  height: 100%
+  padding: 30px
+  overflow-y: auto
+  background: #fff
+  right: 0
+  top: 0
+  z-index: 5
+  box-shadow: 0 0 10px rgba($hover, .4)
+  &__close
+    width: 20px
+    height: 20px
+    position: relative
+    margin: 0 0 20px auto
+    cursor: pointer
+    &:before, &:after
+      content: ''
+      position: absolute
+      left: 10px
+      top: 0
+      width: 2px
+      height: 100%
+      border-radius: 3px
+      background: $hover
+    &:before
+      transform: rotate(45deg)
+    &:after
+      transform: rotate(135deg)
+  .menu
+    margin: 0 0 30px
+    li
+      width: 100%
+      margin: 0 0 15px
+      &:last-child
+        margin: 0
 
 /*==========  section end  ==========*/

@@ -72,14 +72,49 @@
   </div>
 </header>
 
-<section class="news page">
+<section class="page profile">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Новости</h2>
+        <h2>Профиль</h2>
       </div>
-      <div class="col-12">
-        <div class="news-image"><img src="img/news.jpg" alt=""></div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="profile-box">
+          <h3>Ваши данные</h3>
+          <form method="post" class="form-profile">
+            <label>
+              <input type="text" placeholder="Имя" name="name">
+            </label>
+            <label>
+              <input type="text" placeholder="Фамилия" name="first_name">
+            </label>
+            <label>
+              <input type="text" placeholder="Телефон" name="phone" required>
+            </label>
+            <label>
+              <input type="text" placeholder="E-mail" name="mail" required>
+            </label>
+            <button type="submit" class="btn btn-accent">обновить</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="profile-box">
+          <h3>Сменить пароль</h3>
+          <form method="post" class="form-profile">
+            <label>
+              <input type="text" placeholder="Старый пароль" name="password_old" required>
+            </label>
+            <label>
+              <input type="text" placeholder="Новый пароль" name="password_new" required>
+            </label>
+            <button type="submit" class="btn btn-accent">обновить</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
