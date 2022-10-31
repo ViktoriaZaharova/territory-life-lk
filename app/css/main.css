@@ -37,15 +37,39 @@
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover; }
-  .wrapper-image:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("../img/decor.svg") no-repeat center;
-      background-size: cover; }
+  .wrapper-image .slick-list, .wrapper-image .slick-track {
+    height: 100%; }
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0; }
+  .slick-dots li {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    margin: 0 10px 0 0; }
+    .slick-dots li:last-child {
+      margin: 0; }
+    .slick-dots li button {
+      display: none; }
+  .slick-dots .slick-active {
+    background: #35AB52; }
 
 .link-accent {
   color: #35AB52; }
